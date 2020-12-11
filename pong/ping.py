@@ -6,7 +6,7 @@ import socket
 ###########
 ###############################################
 HOST = "localhost"
-PORT = 9006
+PORT = 9000
 
 # Initialisation du serveur
 # Mise en place du socket avec les protocoles IPv4 et TCP
