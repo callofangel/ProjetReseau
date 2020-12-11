@@ -37,14 +37,14 @@ screen = pygame.display.set_mode( (width, height) )
 
 
 # Load resources
-ball_load = pygame.image.load("/home/louis/Desktop/Projet_Reseau/image/ball.png")
+ball_load = pygame.image.load("./image/ball.png")
 ball_coords = ball_load.get_rect()
 
 
-racket_droite = pygame.image.load("/home/louis/Desktop/Projet_Reseau/image/racket.png")
+racket_droite = pygame.image.load("./image/racket.png")
 racket_coords_droite = racket_droite.get_rect()
 
-racket_gauche = pygame.image.load("/home/louis/Desktop/Projet_Reseau/image/racket.png")
+racket_gauche = pygame.image.load("./image/racket.png")
 racket_coords_gauche = racket_gauche.get_rect()
 
 # Throw ball from center
